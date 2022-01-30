@@ -9,5 +9,4 @@ function getOldestFromFirstSpecies(id) {
     specieFound.residents.reduce((acc, curr) => ((acc.age < curr.age) ? curr : acc)),
   );
 }
-
 module.exports = getOldestFromFirstSpecies;
